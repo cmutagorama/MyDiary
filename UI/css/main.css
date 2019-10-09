@@ -1,0 +1,79 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+/*GLOBAL STYLES*/
+
+.navbar {
+	background-color: #232323;
+	color: white;
+	height: 40px;
+	width: 100%;
+	padding: 0;
+	display: flex;
+}
+
+.navbar .logo .logo-name {
+	padding-top: 6px;
+}
+
+.container {
+	width: 80%;
+	height: 100%vh;
+	margin: 120px 200px;
+}
+
+.field {
+	margin: 12px 0;
+}
+
+.field label {
+	width: 200px;
+}
+
+.field input {
+	height: 30px;
+	border-radius: 4px;
+	outline: none;
+	-webkit-appearance: none;
+	box-shadow: none !important;
+}
+
+.primary-btn {
+	text-decoration: none;
+	background-color: #3399ff;
+	color: white;
+	padding: 6px 14px;
+	border-radius: 2px;
+	margin: 2px
+}
+
+.secondary-btn {
+	text-decoration: none;
+	background-color: #ccc;
+	color: white;
+	padding: 6px 14px;
+	border-radius: 2px;
+	margin: 2px
+}
+
+.success-btn {
+	text-decoration: none;
+	background-color: green;
+	color: white;
+	padding: 6px 14px;
+	border-radius: 2px;
+	margin: 2px
+}
+
+/*SIGN IN PAGE CSS*/
+
+
+/*LIST OF ENTRIES PAGE CSS*/
+
+.action-btn {
+	margin: 4px;
+}
+
+/*VIEW ENTRY PAGE CSS*/
