@@ -1,22 +1,23 @@
 <html>
 <head>
+	<meta charset=utf-8>
+	<meta name="viewport" content="width= device-width">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<title>Sign In</title>
 </head>
-<body>
-	<div class="container">
-		<form>
-			<div class="field">
-				<label>Email</label>
-				<input type="email" name="email" id="email">
-			</div>
-			<div class="field">
-				<label>Password</label>
-				<input type="password" name="password" id="password">
-			</div>
-			<div>
-				<a class="primary-btn" href="list_entries.html">Login</a>
-			</div>
+<body class="pagebg">
+	<div class="login-box">
+	<h1>Welcome to MyDiary</br>Sign in to use your Account</h1>
+	          <div class="textbox">
+	            <input type="email" name="email" placeholder="email">
+	           </div>
+	           <div class="textbox">
+	            <input type="password" name="password" placeholder="password">
+	           </div>
+
+	           <input class="valid-btn" type="button" name="login button" value="Login">
+
+				<!-- <a class="primary-btn" href="list_entries.html">Login</a> -->
 		</form>
 		<p>Don't have an account? <a href="sign_up.html">Sign Up</a></p>
 	</div>

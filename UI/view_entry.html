@@ -1,24 +1,43 @@
 <html>
 <head>
+	<meta charset=utf-8>
+	<meta name="viewport" content="width= device-width">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/drop down menu.css">
+
 	<title>MyDiary - View entry</title>
 </head>
 <body>
+	<div class="menu_bar">
+		<body class="pagebg">
+			<ul>
+			  <li class="active"><a href="#">Welcome Willy</a>
+                  <div class="sub-menu1">
+                    <ul>
+                    	<li><a href="profile.html">profile</a></li>
+                    	<li><a href="sign_in.html">logout</a></li>
 
-	<div class="container">
-		<div>
-			<button><a href="list_entries.html">View all entries</a></button>
+
+                    </ul>
+
+                  </div>
+			  </li>
+			  <li><a href="#">about us</a></li>
+		    </ul>
 		</div>
-		<h3>Go for run</h3>
-		<p>Every morning, I run 3 km.</p>
-		<ol>
-			<li>Hello</li>
-			<li>Word</li>
-		</ol>
-		<div>
-			
-		</div>
-		<a class="primary-btn" href="edit_entry.html">Edit</a>
+        <div class="container">
+		   <div>
+			<button><a class="action-btn" href="list_entries.html">View all entries</a></button>
+		   </div>
+		   <h3>Go for run</h3>
+		    <p>Every morning, I run 3 km.</p>
+		    <ol>
+			   <li>Hello</li>
+			   <li>Word</li>
+		    </ol>
+		    <form method="get" action="add_entry.html">
+			<button type="submit">edit</button></form>
+		    <!-- <a class="action-btn" href="edit_entry.html">Edit</a> -->
 	</div>
 </body>
 </html>
